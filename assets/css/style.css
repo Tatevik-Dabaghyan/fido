@@ -888,7 +888,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #073839;
+  background: #1D9286;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
@@ -903,4 +903,39 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Updating Section
+--------------------------------------------------------------*/
+#updating {
+  min-height: 82vh;
+  background: url("../img/hero-background.png") top center;
+  background-size: cover;
+  position: relative;
+  /*margin-bottom: -80px;*/
+}
+
+#updating:before {
+  content: "";
+  background: rgba(255, 255, 255, 0.95);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#updating .container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
