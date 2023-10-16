@@ -35,333 +35,422 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+  <div class="container">
+
+    <div class="logo float-left">
+      <h1 class="text-light"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    </div>
+
+    <nav class="nav-menu float-right d-none d-lg-block">
+      <ul>
+        <li class="active"><a href="index.html">Գլխավոր</a></li>
+        <li class="drop-down"><a href="#">Մեր մասին</a>
+          <ul>
+            <li><a href="updating.html">Ընդհանուր</a></li>
+            <li><a href="updating.html">Կառուցվածք</a></li>
+            <li><a href="updating.html">Սեփականատերեր</a></li>
+            <li><a href="updating.html">Ղեկավարներ</a></li>
+          </ul>
+        </li>
+        <li class="drop-down"><a href="">Ծարայություններ</a>
+          <ul>
+            <li><a href="updating.html">Բրոքերային</a></li>
+            <li><a href="updating.html">SUPERRA</a></li>
+          </ul>
+        </li>
+        <li><a href="reports.html">Հաշվետվություններ</a></li>
+        <li class="drop-down"><a href="">Կարգավորում</a>
+          <ul>
+            <li><a href="updating.html">ՀՀ օրենսդրություն</a></li>
+            <li><a href="updating.html">Ներքին ակտեր</a></li>
+          </ul>
+        </li>
+        <li><a href="updating.html">Կարիերա</a></li>
+        <li><a href="#contact">Կապ</a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </div>
+</header><!-- End #header -->
+
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+  <video autoplay muted loop id="myVideo">
+    <source src="assets/video/chart.mp4" type="video/mp4">
+  </video>
+  <div class="hero-container">
+    <h1>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</h1>
+    <h2>Ներդրումային ծառայություններ ՀՀ արժեթղթերի շուկայում</h2>
+    <a href="updating.html" class="btn-get-started scrollto">Իմանալ ավելին</a>
+  </div>
+</section><!-- #hero -->
+
+<main id="main">
+
+  <!-- ======= Our Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
     <div class="container">
 
-      <div class="logo float-left">
-        <h1 class="text-light"><a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <div class="section-title">
+        <h2>Նորություններ</h2>
       </div>
 
-      <nav class="nav-menu float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">Գլխավոր</a></li>
-          <li class="drop-down"><a href="#">Մեր մասին</a>
-            <ul>
-              <li><a href="updating.html">Ընդհանուր</a></li>
-              <li><a href="updating.html">Կառուցվածք</a></li>
-              <li><a href="updating.html">Սեփականատերեր</a></li>
-              <li><a href="updating.html">Ղեկավարներ</a></li>
-            </ul>
-          </li>
-          <li class="drop-down"><a href="">Ծարայություններ</a>
-            <ul>
-              <li><a href="updating.html">Բրոքերային</a></li>
-              <li><a href="updating.html">SUPERRA</a></li>
-            </ul>
-          </li>
-          <li><a href="reports.html">Հաշվետվություններ</a></li>
-          <li class="drop-down"><a href="">Կարգավորում</a>
-            <ul>
-              <li><a href="updating.html">ՀՀ օրենսդրություն</a></li>
-              <li><a href="updating.html">Ներքին ակտեր</a></li>
-            </ul>
-          </li>
-          <li><a href="updating.html">Կարիերա</a></li>
-          <li><a href="#contact">Կապ</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End #header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <h1>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</h1>
-      <h2>Ներդրումային ծառայություններ ՀՀ արժեթղթերի շուկայում</h2>
-      <a href="updating.html" class="btn-get-started scrollto">Իմանալ ավելին</a>
-    </div>
-  </section><!-- #hero -->
-
-  <main id="main">
-
-    <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Նորություններ</h2>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">Բոլորը</li>
+            <li data-filter=".filter-app">Ֆիդո</li>
+            <li data-filter=".filter-card">Superra</li>
+            <li data-filter=".filter-web">Ֆինանսական շուկա</li>
+          </ul>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Բոլորը</li>
-              <li data-filter=".filter-app">Ֆիդո</li>
-              <li data-filter=".filter-card">Superra</li>
-              <li data-filter=".filter-web">Ֆինանսական շուկա</li>
-            </ul>
-          </div>
-        </div>
+      <div class="row portfolio-container">
 
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 filter-app">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 filter-app">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1">App 1</a></h3>
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-web">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3">Web 3</a></h3>
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-app">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2">App 2</a></h3>
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-plus"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-card">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Card 2</a></h3>
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
                 <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-web">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2">Web 2</a></h3>
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="icofont-plus"></i></a>
-              </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 filter-app">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 filter-web">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3">App 3</a></h3>
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="icofont-plus"></i></a>
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-card">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1">Card 1</a></h3>
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="icofont-plus"></i></a>
-              </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-6 filter-card">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 filter-app">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3">Card 3</a></h3>
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="icofont-plus"></i></a>
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 filter-web">
-            <div class="portfolio-item">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h3><a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 1">Web 1</a></h3>
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 1"><i class="icofont-plus"></i></a>
-              </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
             </div>
           </div>
+        </div>
 
+        <div class="col-lg-4 col-md-6 filter-card">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 filter-web">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 filter-app">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 filter-card">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 filter-card">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 filter-web">
+          <div class="portfolio-item">
+            <div class="news-img">
+              <img src="assets/img/news/news1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h3><a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2">Դիտել</a></h3>
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-plus"></i></a>
+              </div>
+            </div>
+            <div class="news-info">
+              <h6>Lorem ipsum dolor sit amet. </h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus facere itaque unde...</p>
+              <p>2023, հունիս 27</p>
+              <hr>
+            </div>
+          </div>
         </div>
 
       </div>
-    </section><!-- End Our Portfolio Section -->
 
-    <!-- ======= Call To Action Section ======= -->
-    <section class="call-to-action">
-      <div class="container">
-
-        <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
-        </div>
-
-      </div>
-    </section><!-- End Call To Action Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Հաճախ տրվող հարցեր</h2>
-        </div>
-
-        <ul class="faq-list">
-
-          <li>
-            <a data-toggle="collapse" class="" href="#faq1">Ինչ է արժեթուղթը? <i class="icofont-simple-up"></i></a>
-            <div id="faq1" class="collapse show" data-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed">Ինչպես կարող եմ կատարել ներդրումներ? <i class="icofont-simple-up"></i></a>
-            <div id="faq2" class="collapse" data-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Ինչպես բացել բրոքերային հաշիվ? <i class="icofont-simple-up"></i></a>
-            <div id="faq3" class="collapse" data-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Կապ</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-about">
-              <h3>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
-                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
-                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info">
-              <div>
-                <i class="icofont-google-map"></i>
-                <p>ՀՀ, ք․ Երևան, <br> Սայաթ-Նովա 3</p>
-              </div>
-
-              <div>
-                <i class="icofont-envelope"></i>
-                <p>info@fidoinvest.am</p>
-              </div>
-
-              <div>
-                <i class="icofont-phone"></i>
-                <p>+37411800086</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Անուն" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Էլեկտրոնային հասցե" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Վերնագիր" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Հաղորդագրություն"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Ուղարկել</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Us Section -->
-
-    <!-- ======= Map Section ======= -->
-    <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.036430384547!2d44.511766490269814!3d40.186002696117114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abce228272bb5%3A0x107b64aaddf5c4e5!2zMyDVjdWh1bXVodWpLdWG1bjVvtWhINW61bjVstW41b_VoSwg1LXWgNaH1aHVtiAwMDAx!5e0!3m2!1shy!2sam!4v1696881610816!5m2!1shy!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section><!-- End Map Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy;  <strong><span>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</span></strong>
-        <p>Բոլոր իրավունքները պաշտպանված են</p>
-      </div>
     </div>
-  </footer><!-- End #footer -->
+  </section><!-- End Our Portfolio Section -->
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!-- ======= Call To Action Section ======= -->
+  <section class="call-to-action">
+    <div class="container">
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
+      <div class="text-center">
+        <h3>Call To Action</h3>
+        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="cta-btn" href="#">Call To Action</a>
+      </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    </div>
+  </section><!-- End Call To Action Section -->
+
+  <!-- ======= Frequently Asked Questions Section ======= -->
+  <section id="faq" class="faq">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Հաճախ տրվող հարցեր</h2>
+      </div>
+
+      <ul class="faq-list">
+
+        <li>
+          <a data-toggle="collapse" class="" href="#faq1">Ինչ է արժեթուղթը? <i class="icofont-simple-up"></i></a>
+          <div id="faq1" class="collapse show" data-parent=".faq-list">
+            <p>
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq2" class="collapsed">Ինչպես կարող եմ կատարել ներդրումներ? <i class="icofont-simple-up"></i></a>
+          <div id="faq2" class="collapse" data-parent=".faq-list">
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <a data-toggle="collapse" href="#faq3" class="collapsed">Ինչպես բացել բրոքերային հաշիվ? <i class="icofont-simple-up"></i></a>
+          <div id="faq3" class="collapse" data-parent=".faq-list">
+            <p>
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+            </p>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section><!-- End Frequently Asked Questions Section -->
+
+  <!-- ======= Contact Us Section ======= -->
+  <section id="contact" class="contact section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Կապ</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="contact-about">
+            <h3>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</h3>
+            <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <div class="social-links">
+              <a href="#" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+              <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="info">
+            <div>
+              <i class="icofont-google-map"></i>
+              <p>ՀՀ, ք․ Երևան, <br> Սայաթ-Նովա 3</p>
+            </div>
+
+            <div>
+              <i class="icofont-envelope"></i>
+              <p>info@fidoinvest.am</p>
+            </div>
+
+            <div>
+              <i class="icofont-phone"></i>
+              <p>+37411800086</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Անուն" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Էլեկտրոնային հասցե" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Վերնագիր" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Հաղորդագրություն"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Ուղարկել</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Us Section -->
+
+  <!-- ======= Map Section ======= -->
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.036430384547!2d44.511766490269814!3d40.186002696117114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abce228272bb5%3A0x107b64aaddf5c4e5!2zMyDVjdWh1bXVodWpLdWG1bjVvtWhINW61bjVstW41b_VoSwg1LXWgNaH1aHVtiAwMDAx!5e0!3m2!1shy!2sam!4v1696881610816!5m2!1shy!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section><!-- End Map Section -->
+
+  <!-- ======= Updated Section ======= -->
+  <div class="updated section-bg">
+    <p>Թարմացվել է՝ 10.10.2023թ.</p>
+  </div><!-- End Updated Section -->
+
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      <strong><p>ՖԻԴՈ ԻՆՎԵՍԹ ՓԲԸ</p></strong>
+      <p>Ընկերությունը վերահսկվում է ՀՀ Կենտրոնական Բանկի կողմից</p>
+      <p>Ընկերությունը պատասխանատվություն չի կրում կայքի էջերում հղում արված՝ երրորդ անձանց ինտերնետային կայքերի բովանդակության, ստույգության և արժանահավատության, այնտեղ տեղադրված գովազդների համար, և պատասխանատվություն չի կրում այնտեղ տեղադրված տեղեկատվության օգտագործման հնարավոր հետևանքների համար</p>
+      <div class="link-icons">
+        <a href="https://www.cba.am/am/SitePages/Default.aspx" class="link-icon"><img src="assets/img/link/cba.svg" alt=""></a>
+        <a href="https://fsm.am/" class="link-icon"><img src="assets/img/link/fin.png" alt=""></a>
+        <a href="https://amx.am/" class="link-icon"><img src="assets/img/link/amx.svg" alt=""></a>
+        <a href="https://www.fininfo.am/" class="link-icon"><img src="assets/img/link/fininfo.png" alt=""></a>
+        <a href="https://www.abcfinance.am/" class="link-icon"><img src="assets/img/link/abc.svg" alt=""></a>
+      </div>
+      <p>&copy; Բոլոր իրավունքները պաշտպանված են</p>
+    </div>
+  </div>
+</footer><!-- End #footer -->
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 
 </body>
 
