@@ -590,6 +590,7 @@ section {
   margin: 0 0 30px 0;
   box-shadow: rgba(182, 182, 182, 0.5) 0 5px 10px 0;
   padding: 5px;
+  transition: 0.3s;
 }
 
 .portfolio .portfolio-item img {
@@ -646,6 +647,20 @@ section {
 
 .news-info hr {
   margin: 10px 0px;
+}
+
+.report-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(0, 99, 119);
+  font-size: 24px;
+}
+
+.portfolio .portfolio-item:hover .report-title {
+  display: none;
 }
 
 /*--------------------------------------------------------------
